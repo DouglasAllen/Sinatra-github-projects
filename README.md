@@ -93,4 +93,10 @@
 * Tunr 1.0! https://github.com/ga-wdi-exercises/tunr_sinatra
 * sinatra_json_skeleton https://github.com/ukutaht/sinatra_json_skeleton
 * 383_skills_and_proficiencies_redux https://github.com/dandydanny/383_skills_and_proficiencies_redux
+* The Twelve-Factor App https://github.com/heroku/12factor
+* Heroku OAuth Example: Ruby https://github.com/heroku/heroku-oauth-example-ruby
+* sinatra-omniauth-example https://github.com/LaunchAcademy/sinatra-omniauth-example
+* heroku-sinatra-pony-gmail-template https://github.com/RobertLowe/heroku-sinatra-pony-gmail-template
+* vitrine-imobiliaria-sinatra https://github.com/jnettome/vitrine-imobiliaria-sinatra
+* blog https://github.com/tessafallon/blog
 * 
