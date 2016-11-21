@@ -63,4 +63,20 @@
 * Sinatra_ActiveRecord https://github.com/mateuspontes/Sinatra_ActiveRecord
 * agmockapp https://github.com/ion-channel/agmockapp
 * craigslist_jr https://github.com/kierarad/craigslist_jr
+* Contact Manager https://github.com/katieblair/contact_manager
+* Sinatra-ActiveRecord-Postgres-example https://github.com/bertiewooster/Sinatra-ActiveRecord-Postgres-example
+* sinatra_structure https://github.com/vmitchell/sinatra_structure
+* Sinatra / Heroku / HTML5 Boilerplate / 960 Grid System starter app https://github.com/latentflip/sinatra-heroku-boilerplate
+* First Step in Ruby DSL https://github.com/ashbb/cold-sky-27
+* sprite-orbits-mock-sinatra https://github.com/miminashi/sprite-orbits-mock-sinatra
+* Sinatra-Activerecord-Bundler-Example https://github.com/runemadsen/Sinatra-Activerecord-Bundler-Example
+* dbstruct and tablemigrations https://github.com/jcsjcs/dbstruct
+* employee_tracker https://github.com/laurenemarcus/employee_tracker
+* Contact Manager https://github.com/djpowers/contact_manager
+* Week05-Lecture5_Sinatra_pg_My-Work https://github.com/247webdev/Week05-Lecture5_Sinatra_pg_My-Work
+* ruby-sample https://github.com/heroku/ruby-sample
+* Sinatra example using omniauth-37signals https://github.com/jeffols/omniauth-37signals-example
+* sinatra-html5boilerplate https://github.com/tomsquest/sinatra-html5boilerplate
+* Digital Ocean Dokku Sinatra Example https://github.com/lemmycaution/sinatra-ar-dokku-example
+* pg-ar-sinatra https://github.com/supercerealgore/pg-ar-sinatra
 * 
