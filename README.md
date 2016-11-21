@@ -105,4 +105,5 @@
 * BitfyreDo https://github.com/bitfyre/BitfyreDo
 * sinatra-html5-compass-boilerplate https://github.com/dbarison/sinatra-html5-compass-boilerplate
 * sinatra-starter-app https://github.com/adammcarth/sinatra-starter-app
+* sinatra-ar https://github.com/aliceFung/numerology-app
 * 
