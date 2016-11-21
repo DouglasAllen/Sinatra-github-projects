@@ -79,4 +79,18 @@
 * sinatra-html5boilerplate https://github.com/tomsquest/sinatra-html5boilerplate
 * Digital Ocean Dokku Sinatra Example https://github.com/lemmycaution/sinatra-ar-dokku-example
 * pg-ar-sinatra https://github.com/supercerealgore/pg-ar-sinatra
+* myapp https://github.com/wuleicanada/myapp
+* badgr https://github.com/heroku/badgr
+* JRuby Sinatra starter kit for Shelly Cloud https://github.com/mkwiatkowski/jruby-sinatra-starter-kit
+* Backbone-Sinatra Boilerplate https://github.com/derickbailey/backbone-sinatra-boilerplate
+* Sinatra + HTML5 Boilerplate https://github.com/codelittle/sinatra-h5bp
+* simple-sinatra-html5boilerplate https://github.com/ronnqvist/simple-sinatra-html5boilerplate
+* Data Scraping And More With Ruby, Nokogiri, Sinatra and Heroku https://github.com/hpowers/Nokogiri-Ruby-Tutorial
+* heroku-sinatra-app https://github.com/sinatra/heroku-sinatra-app
+* Sinatra+Haml Signin Sample App https://github.com/nanodeath/SinatraHamlSignin
+* Sinatra with ActiveRecord on Heroku Postgres https://github.com/hatboysam/sinatra-activerecord-heroku
+* Sinatra_PG_template https://github.com/trostli/Sinatra_PG_template
+* Tunr 1.0! https://github.com/ga-wdi-exercises/tunr_sinatra
+* sinatra_json_skeleton https://github.com/ukutaht/sinatra_json_skeleton
+* 383_skills_and_proficiencies_redux https://github.com/dandydanny/383_skills_and_proficiencies_redux
 * 
