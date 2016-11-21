@@ -102,4 +102,5 @@
 * DVDWorm https://github.com/shiopon01/DVDWorm
 * Primetime https://github.com/jward7/primetime
 * meetups-in-space https://github.com/sam-glad/meetups-in-space
+* BitfyreDo https://github.com/bitfyre/BitfyreDo
 * 
