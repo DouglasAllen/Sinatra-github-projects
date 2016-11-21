@@ -103,4 +103,5 @@
 * Primetime https://github.com/jward7/primetime
 * meetups-in-space https://github.com/sam-glad/meetups-in-space
 * BitfyreDo https://github.com/bitfyre/BitfyreDo
+* sinatra-html5-compass-boilerplate https://github.com/dbarison/sinatra-html5-compass-boilerplate
 * 
