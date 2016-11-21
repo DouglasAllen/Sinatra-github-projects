@@ -47,17 +47,20 @@
 * Sinatra-Boilerplate https://github.com/robinsingh1/Sinatra-Boilerplate
 * Sinatra Boilerplate https://github.com/charliepark/sinatra_boilerplate
 * sinatra_boilerplate https://github.com/furu/sinatra_boilerplate
+* ActiverecordSinatra https://github.com/mattgaidica/ActiverecordSinatra
+* ActiverecordSinatra-master https://github.com/spannerj/ActiverecordSinatra-master
+* Sinatra API Server Toolbox https://github.com/solyaris/sinatra-api-server-toolbox
+* Launch Pairs https://github.com/SpencerCDixon/LaunchPairs
+* Keeping Tabs https://github.com/courtneyphillips/band-tracker
+* Employee Tracker https://github.com/katcarr/employee_tracker
+* sakadasan_ranking https://github.com/brownman/sakadasan_ranking
+* Sinatra API template https://github.com/jdno/sinatra-api-template
+* potluck_manager https://github.com/tomgalpin/potluck_manager
+* sinatra-omniauth-example https://github.com/gorsuch/sinatra-omniauth-example
+* movies https://github.com/gthall1/movies
+* sinatra.twitter https://github.com/johnantoni/sinatra.twitter
+* ballast-sinatra https://github.com/torquebox/ballast-sinatra
+* Sinatra_ActiveRecord https://github.com/mateuspontes/Sinatra_ActiveRecord
+* agmockapp https://github.com/ion-channel/agmockapp
+* craigslist_jr https://github.com/kierarad/craigslist_jr
 * 
-*
-*
-*
-*
-*
-*
-*
-*
-*
-*
-*
-*
-*
