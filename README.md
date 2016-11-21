@@ -110,4 +110,5 @@
 * sinatra-activerecord-template https://github.com/banym/sinatra-activerecord-template
 * Toopaste  https://github.com/budhrg/toopaste
 * sinatra_demo https://github.com/HungryAcademyTeam4/sinatra_demo
+* wdi_brokerage https://github.com/tomgalpin/wdi_brokerage
 * 
