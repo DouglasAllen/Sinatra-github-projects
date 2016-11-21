@@ -108,4 +108,5 @@
 * sinatra-ar https://github.com/aliceFung/numerology-app
 * sinatra_meetup https://github.com/AlexMorgan/sinatra_meetup
 * sinatra-activerecord-template https://github.com/banym/sinatra-activerecord-template
+* Toopaste  https://github.com/budhrg/toopaste
 * 
