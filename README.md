@@ -99,4 +99,7 @@
 * heroku-sinatra-pony-gmail-template https://github.com/RobertLowe/heroku-sinatra-pony-gmail-template
 * vitrine-imobiliaria-sinatra https://github.com/jnettome/vitrine-imobiliaria-sinatra
 * blog https://github.com/tessafallon/blog
+* DVDWorm https://github.com/shiopon01/DVDWorm
+* Primetime https://github.com/jward7/primetime
+* meetups-in-space https://github.com/sam-glad/meetups-in-space
 * 
