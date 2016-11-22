@@ -120,4 +120,5 @@
 * Sinatra Template https://github.com/ascendbruce/sinatra-template
 * sinatra-activerecord https://github.com/2learn/sinatra-activerecord
 * basic-service-sinatra-activerecord https://github.com/zenbaku/basic-service-sinatra-activerecord
+* nfl_draft_sinatra_api https://github.com/ericchen0121/nfl_draft_sinatra_api
 * 
