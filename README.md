@@ -113,4 +113,5 @@
 * wdi_brokerage https://github.com/tomgalpin/wdi_brokerage
 * recipe_box https://github.com/laurenemarcus/recipe_box
 * merchant https://github.com/proxima/merchant
+* sinatra-activerecord-followings https://github.com/nycda/sinatra-activerecord-followings
 * 
