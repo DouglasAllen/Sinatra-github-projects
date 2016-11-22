@@ -114,4 +114,5 @@
 * recipe_box https://github.com/laurenemarcus/recipe_box
 * merchant https://github.com/proxima/merchant
 * sinatra-activerecord-followings https://github.com/nycda/sinatra-activerecord-followings
+* Simple Todo application written in Ruby/Sinatra https://github.com/wapptastic/Sinatra_Todo_ActiveRecord
 * 
