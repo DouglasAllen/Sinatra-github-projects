@@ -133,4 +133,12 @@
 * ActiveRecordShirts https://github.com/mdidier9/ActiveRecordShirts
 * ActiveRecord_Associations_Drill_Skeleton https://github.com/tararoys/ActiveRecord_Associations_Drill_Skeleton
 * LA_ActiveRecord-sinatra-lesson https://github.com/rjrobinson/LA_ActiveRecord-sinatra-lesson
+* sinatra_base https://github.com/jwhitehorn/sinatra_base
+* Lunar Kitchen https://github.com/cmkoller/lunar_kitchen
+* Band Tracker https://github.com/Gene5ive/Music_Tracker
+* 383_skills_and_proficiencies https://github.com/dandydanny/383_skills_and_proficiencies
+* Survey-Monkey-Clone https://github.com/XanderGlassman/Survey-Monkey-Clone
+* Stellar Shoes Management https://github.com/cyr3ne/shoe_store
+* Movie Tracker https://github.com/cyr3ne/movie_database
+* GEM LIST https://github.com/dahal/GemList
 * 
