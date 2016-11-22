@@ -126,4 +126,5 @@
 * Todolist-Sinatra-activerecord-sqlite3 https://github.com/Phatza/Todolist-Sinatra-activerecord-sqlite3
 * 17_Music_Lab https://github.com/icamilo95/17_Music_Lab
 * Sinatra / ActiveRecord / Heroku https://github.com/brunops/sinatra_activerecord_heroku
+* Sinatra Template  https://github.com/shell/sinatra-template
 * 
