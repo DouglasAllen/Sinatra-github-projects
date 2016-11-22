@@ -118,4 +118,5 @@
 * Sinatra_ActiveRecord_Final https://github.com/mariaholland/Sinatra_ActiveRecord_Final
 * Simple Todos with Sinatra and ActiveRecord https://github.com/vredniy/todos-sinatra-activerecord
 * Sinatra Template https://github.com/ascendbruce/sinatra-template
+* sinatra-activerecord https://github.com/2learn/sinatra-activerecord
 * 
