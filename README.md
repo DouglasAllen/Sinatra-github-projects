@@ -127,4 +127,10 @@
 * 17_Music_Lab https://github.com/icamilo95/17_Music_Lab
 * Sinatra / ActiveRecord / Heroku https://github.com/brunops/sinatra_activerecord_heroku
 * Sinatra Template  https://github.com/shell/sinatra-template
+* photo_app https://github.com/shannonjen/photo_app
+* sinatra-mailing-list-boilerplate https://github.com/mightyGaby/sinatra-mailing-list-boilerplate
+* Sinatra-ActiveRecord-Homework-Assignment-11 https://github.com/sneparc/Sinatra-ActiveRecord-Homework-Assignment-11
+* ActiveRecordShirts https://github.com/mdidier9/ActiveRecordShirts
+* ActiveRecord_Associations_Drill_Skeleton https://github.com/tararoys/ActiveRecord_Associations_Drill_Skeleton
+* LA_ActiveRecord-sinatra-lesson https://github.com/rjrobinson/LA_ActiveRecord-sinatra-lesson
 * 
