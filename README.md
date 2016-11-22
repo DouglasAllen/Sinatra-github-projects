@@ -117,4 +117,5 @@
 * Simple Todo application written in Ruby/Sinatra https://github.com/wapptastic/Sinatra_Todo_ActiveRecord
 * Sinatra_ActiveRecord_Final https://github.com/mariaholland/Sinatra_ActiveRecord_Final
 * Simple Todos with Sinatra and ActiveRecord https://github.com/vredniy/todos-sinatra-activerecord
+* Sinatra Template https://github.com/ascendbruce/sinatra-template
 * 
