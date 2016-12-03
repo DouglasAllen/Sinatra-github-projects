@@ -143,7 +143,18 @@
 * GEM LIST https://github.com/dahal/GemList
 * Simple url shortener https://github.com/Arkham/sinatra-activerecord-url-shortener
 * Old Black Magic https://github.com/PatrickTulskie/old_black_magic
-* 
+* Command Tower https://github.com/Aschnied/PassionProjectWeek1
+* Sinatra_Activerecord-Homework https://github.com/mariaholland/Sinatra_Activerecord-Homework
+* sinatra-activerecord-shortendUrls https://github.com/0xack13/sinatra-activerecord-shortendUrls
+* Sinatra Active Record Starter Kit https://github.com/brea9482/sinatra-activerecord-starting-bootstrap
+* Sinatra-HART https://github.com/florinpatrascu/Sinatra-HART
+* sinatra-activerecord https://github.com/bfagundez/sinatra-activerecord
+* blog-appli_sinatra_activerecord https://github.com/mariefontanel/blog-appli_sinatra_activerecord
+* Sinatra Omniauth Example https://github.com/LaunchAcademy/sinatra-omniauth-pg-example
+*
+*
+*
+*
 *
 *
 *
