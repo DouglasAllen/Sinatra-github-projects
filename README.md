@@ -141,4 +141,12 @@
 * Stellar Shoes Management https://github.com/cyr3ne/shoe_store
 * Movie Tracker https://github.com/cyr3ne/movie_database
 * GEM LIST https://github.com/dahal/GemList
+* Simple url shortener https://github.com/Arkham/sinatra-activerecord-url-shortener
+* Old Black Magic https://github.com/PatrickTulskie/old_black_magic
 * 
+*
+*
+*
+*
+*
+
