@@ -1,0 +1,14 @@
+source 'http://rubygems.org'
+
+gem 'foreman'
+
+gem 'sinatra'
+gem 'sinatra-activerecord'
+
+gem 'resque'
+gem 'redis'
+
+# gem 'sqlite3'
+gem 'mysql2'
+
+gem 'rake'

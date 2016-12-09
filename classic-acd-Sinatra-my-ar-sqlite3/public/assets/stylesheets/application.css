@@ -1,0 +1,173 @@
+html, body {
+  margin: 10px auto;
+  width: 700px;
+  font-family: 'HelveticaNeue-UltraLight', sans-serif;
+  text-align: center;
+  background-color: rgba(40, 40, 40, 0.8);
+  color: #FFFFFF;
+  word-wrap: break-word;
+}
+
+header {
+  margin: 0 0 20px;
+}
+
+header h1 {
+  display: inline;
+  font-size: 1.5em;
+  background-color: #808080;
+  padding: 3% 10%;
+  color: #ffffff;
+}
+
+header h1 a:link, header h1 a:visited {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+header h2 {
+  font-size: 1em;
+  font-style: italic;
+  color: #999999;
+  padding: 3%;
+}
+
+h3 {
+  font-size: 1.1em;
+}
+
+h5 {
+  font-weight: normal;
+  font-size: 1em;
+  margin: 0;
+}
+
+h6 {
+  font-weight: normal;
+  font-size: 1.5em;
+  margin-top: 2%;
+}
+
+p {
+  margin-bottom: 5%;
+}
+
+a {
+  color: #ffffff;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+li {
+  margin: 2%;
+  border: 1px solid #fff;
+  padding: 3%;
+  font-size: 1.25em;
+}
+
+a:hover {
+  cursor: crosshair;
+}
+
+a:visited {
+  color: #999999;
+}
+
+.button_right {
+  margin: 1% 1% 5% 1%;
+  display: block;
+  float: right;
+}
+
+.button_center {
+  margin: 2% 1% 5% 1%;
+  display: block;
+  cursor: crosshair;
+}
+
+.button_style {
+  border: 1px solid #FFFFFF;
+  padding: 1.5% 2%;
+  background-color: transparent;
+  color: #FFFFFF;
+  cursor: crosshair;
+}
+
+.button_back_style {
+  margin-top: 15%;
+  border: 1px solid #FFFFFF;
+  padding: 1.5% 2%;
+  background-color: transparent;
+  color: #FFFFFF;
+}
+
+#login_bar {
+  margin: 5% auto;
+}
+
+#main {
+  margin: 0;
+  padding: 5%;
+}
+
+#container {
+  margin-top: 10%;
+}
+
+.edit_short {
+  width: 60%;
+  margin-bottom: 5%;
+  padding: 1% 3%;
+}
+
+.edit_long {
+  width: 60%;
+  height: 300px;
+  margin-bottom: 3%;
+  padding: 1% 3%;
+}
+
+.logo {
+  height: 4em;
+}
+
+.edit_button {
+  display: inline-block;
+  margin: 10% 0 3% 0;
+}
+
+.delete_button {
+  margin: 3% auto 10% auto;
+  font-size: 0.8em;
+  width: 50%;
+}
+
+.edit_button_small {
+  display: inline-block;
+  margin: 5% 0 3% 0;
+  font-size: 0.85em;
+}
+
+.delete_button_small {
+  display: inline-block;
+  font-size: 0.85em;
+}
+
+footer {
+  margin: 15% 0 0;
+  display: block;
+  position: relative;
+  font-size: 0.75em;
+  font-family: 'HelveticaNeue-Light', sans-serif;
+  color: #CCCCCC;
+}
+
+.flash {
+  background: lime;
+}
+

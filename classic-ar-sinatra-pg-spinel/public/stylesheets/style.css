@@ -1,0 +1,38 @@
+/* Main HTML attributes */
+
+body {
+  width: 80%;
+  margin: auto auto;
+  padding-top: 20px;
+}
+
+/* Blog Sections */
+
+/* Header */
+#header {
+  text-align: center;
+  border-bottom: 1px solid grey;
+}
+
+/* Wrapper */
+
+#sidemenu {
+  float: left;
+  width: 25%;
+}
+
+  #links{
+    text-align: center;
+    border-bottom: 1px solid;
+  }
+
+  #posts-list{ text-align: center; }
+
+#content {
+  float: right;
+  text-align: justify;
+  width: 65%;
+}
+
+  #content .post-published   { color: green; }
+  #content.post-unpublished { color: firebrick; }

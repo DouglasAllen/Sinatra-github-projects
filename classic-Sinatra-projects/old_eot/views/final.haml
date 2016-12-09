@@ -1,0 +1,62 @@
+%html
+  %head
+    %title final_equation
+  %body    
+    %h3
+      Recall our equation for EOT?
+      %br
+      &Delta; = ( &Mu; - &nu; ) + ( &lambda; - &alpha; )
+      %br
+      &Mu; = Mean Anomaly
+      %br
+      &nu; = True Anomaly = Mean Anomaly + Equation of Center
+      %br
+      Here I will call Equation of Center c
+      %br
+      c = Equation of Center
+      %br
+      so that
+      %br
+      e1 = &Mu; - ( &Mu; + c )
+      %br
+      and
+      %br
+      &lambda; = Mean Longitude + Equation of Center
+      %br
+      I will call Mean Longitude L
+      %br
+      &alpha; = Right Ascension
+      %br
+      e2 = ( L + c ) - &alpha;
+      %br
+      Total = &Mu; - ( &Mu; + c ) + ( L + c ) - &alpha;
+      %br
+      or
+      %br
+      Total = &Mu; - &Mu; - c + L + c - &alpha;
+      %br
+      Two terms cancel out, &Mu; and c
+      %br
+      Total = L - &alpha;
+      %br
+      - if @solar
+        - ajd = @solar.ajd_time(Time.now.utc)
+        - t = @solar.time_julian_century(ajd)
+        - s_min = 4.0 * 350 / @solar.factor
+        - ml = @solar.geometric_mean_longitude(t)
+        - ra = @solar.right_ascension(t)
+      %p
+        %input{:style => "font-weight: bold; color: #00a", :value => "  #{ml}"}: Mean Longitude Sun decimal degrees
+        %br
+        %input{:style => "font-weight: bold; color: #00a", :value => "  #{ra}"}: &alpha; or Right Ascension decimal degrees
+        %br
+        %input{:style => "font-weight: bold; color: #00a", :value => "  #{ml - ra}"}: &Delta; degress. ( L - &alpha; ) decimal degrees
+        %br
+        %input{:style => "font-weight: bold; color: #00a", :value => "  #{(ml - ra) * s_min}"}: &Delta; decimal minutes
+        %br
+        %input{:style => "font-weight: bold; color: #00a", :value => "  #{@solar.display_equation_of_time((ml - ra) * s_min)}"} : &Delta; minutes and seconds   
+      %br
+      This works most of the time except right after the Vernal Equinox, Mean Longitude is still approaching 360 degrees while Right Ascension has zeroed.
+      %br
+      %br 
+      %a{:href => "/mysuntimes"} Sun Times

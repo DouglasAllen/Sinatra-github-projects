@@ -1,0 +1,12 @@
+<h2>You bought:</h2>
+
+<% if @purchase.items.any?() %>
+<ul>
+  <% @purchase.items().each() do |item| %>
+    <li><%= item.name() %></li>
+  <% end %>
+</ul>
+<h5><%= @purchase.items.sum(:price) %></h5>
+<% else %>
+  <p>You haven't bought anything! <a href="/">Buy Something</a></p>
+<% end %>

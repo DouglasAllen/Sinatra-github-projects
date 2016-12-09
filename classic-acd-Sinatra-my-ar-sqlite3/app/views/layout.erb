@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="/stylesheets/normalize.css">
+  <link rel="stylesheet" type="text/css" href="/stylesheets/application.css">
+  <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon">
+
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script src="/javascripts/application.js"></script>
+
+  <title></title>
+</head>
+<body>
+  <div id="main">
+    <header>
+      <div id="login_bar">
+        <% if current_user %>
+          Welcome, <%= current_user.name %> | <a href="/logout">Logout</a>
+        <% else %>
+          <a href="/login">Login</a> | <a href="/signup">Signup</a>
+        <% end %>
+      </div>
+    </header>
+
+    <div id="error_bar">
+      <%= display_error! %>
+    </div>
+
+    <div id="container">
+      <%= yield %>
+    </div>
+
+    <footer>Brought to you by <a href="http://github.com/DouglasAllen" target="_blank">KB9AGT</a></footer>
+
+  </div>
+</body>
+</html>

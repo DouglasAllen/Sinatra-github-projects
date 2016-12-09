@@ -1,0 +1,141 @@
+!!!
+%html
+  %head
+    %title julian_time
+    %body
+    %h3
+    - if @solar
+      %h1
+        The Astronomical Julian Day Number = Julian Day Number - 0.5 days
+        %br/
+        ajd = jd - 0.5 
+        %br/	
+        midnight or half point from the Date Line since time is referenced from the Prime Meridian.
+      %h3
+        The time reference we need starts at midnight UTC for the day because we will be adding on the current time.
+        %br/
+        Julian Period Day Numbers seem like they are midday but the day begins at the Date Line.
+        %br/	
+        Astronomers use Julian Period Day Numbers for logging of their astronomical observations.
+        %br/	
+        The Date Line meridian is 12 hours or 180.0 degrees from the  UTC time reference.
+        %br
+        We are interested in the time Now UTC for this demonstartion of Equation of Time.
+      %h3
+        These terms are calculated with the Universal Time Coordinate or GMT of the current time.
+      %h1
+        In Ruby we can use the Date class and many of the methods or functions in this class.
+      %h3
+        One method used here is Date.jd( ) which gives us a Julian Day Number.
+        %br/
+        We can set the jd attribute for Equation of Time module using jd=( ) if we know it. Use the Date.jd to find it.
+        %br/
+        %br/
+        First create a Date class instance using a Time class instance in UTC time.
+        %br/
+        @universal_time = Time.now.utc
+        %br/
+        @year =  @universal_time.year
+        %br/
+        @month = @universal_time.month
+        %br/
+        @day = @universal_time.day
+        %br/
+        @date_string = "\#{ @year } - \#{ @month } - \#{ @day }"
+        %br/
+        @date = Date.parse( @date_string )
+        %br/
+        jd = @date.jd
+        %br/
+        %br/
+        Then use EOT module as follows. ( Please use the gem from github )
+        %br/
+        I used @solar = EOT for this site.
+        %br/
+        @solar.initialize ( no longer needed as initialize will happen when require loads the gem )
+        %br/
+        We used UTC time for the date because it keeps it consistant when UTC could change over to the next day and vice versa.
+        %br/
+        Finally set the Equation of Time class attribute with the jd=( ) method.
+        %br/
+        This is used if we want to calculate Sunrise or Sunset for the current date. See Times link on Main.
+        %br/
+        @solar.jd = jd
+      %h3
+        %input{:style => "font-weight: bold", :value => "  #{@solar.jd}"}/
+        \: Julian Day Number ( noon UTC ).
+      %h2 Now use the method in Equation of Time class named ajd=()
+      %h3 @solar.ajd = jd - 0.5 # subtract half day to get midnight.
+      %h3
+        We will use the AJD plus the time now UTC for real time calculations. 
+        %br
+        The AJD is multiplied by 1.0 because for Ruby we would get a rational number otherwise.
+        %br
+        This is done for you in this gem.      
+      %h3
+        %input{:style => "font-weight: bold", :value => "  #{(@solar.ajd * 1.0)}"}/
+        \: Astronomical Julian Day Number ( midnight UTC ).
+      %h1 Equation of Time class
+      %h3 day_fraction_time( t = Time.now.utc )
+      %h3 note: the default is Time now UTC ( Time.now.utc )
+      %h3{:style => "color: #ff0000"}= "Time now UTC = #{Time.now.utc}"
+      %h3 Day fraction time returns hours decimal / 24.0      
+      %h3{:style => "color: #ff0000"}= "decimal hours now = #{@solar.day_fraction_time(Time.now.utc) * 24}"    
+      %h3 @now = @solar.day_fraction_time( t = Time.now.utc )      
+      %h3
+        %input{:style => "font-weight: bold", :value => "  #{@solar.day_fraction_time(Time.now.utc)}"}: = @now      
+      %h3
+        Two methods combine to form the AJD + Day fraction.
+      %h3
+        %pre
+          :preserve
+
+            def day_fraction_time( t = Time.new( 2000, 1, 1, 12 ))
+              t.nil? ? t = Time.new( 2000, 1, 1, 12 ) : t
+              time = t.to_a
+              time[2] / DAY_HOURS  +
+              time[1] / DAY_MINUTES +
+              time[0] / DAY_SECONDS
+            end
+
+            def ajd_time( t = Time.new( 2000, 1, 1, 12 ))
+              t.nil? ? t = Time.new( 2000, 1, 1, 12 ) : t
+              day_fraction_time( t ) + time_to_ajd( t )
+            end
+
+      %h3 time_to_ajd( t ) method makes the AJD from scratch.
+      %h3
+        %pre
+          :preserve
+
+            def time_to_ajd( t = Time.new( 2000, 1, 1, 12 ))
+              t.nil? ? t = Time.new( 2000, 1, 1, 12 ) : t # catch entered nils
+              time = t.to_a
+              y = time[5]
+              m = time[4]
+              d = time[3]
+              if m < 3
+                y -= 1
+                m += 12
+              end
+              a = ( y / 100 ).floor
+              b  = ( a / 4 ).floor
+              c = 2 - a + b
+              e = ( 365.25  * ( y + 4716 )).floor
+              f = ( 30.6001 * ( m +1 )).floor
+              c + d + e + f - 1524.5
+            end
+
+      %h3 ajd_time( t = Time.now.utc ) will do the adding for us.
+      %h3 @combined = @solar.ajd_time( t = Time.now.utc )
+      %h3
+        %input{:style => "font-weight: bold", :value => "  #{@solar.ajd_time(Time.now.utc)}"}/
+        \: Astronomical Julian Day Number and Day fraction of Julian Day Number.
+      %h3 
+        This is the calculated value passed as a parameter.
+      %h3 
+        @jct = julian_century_time( ajd_time( Time.now.utc ) ).
+      %h3
+        Note: The default J2000 value if we pass no parameter or a nil. Nils will be detected and corrected to this default. :see next page for details.
+      %h3
+        %a{:href => "/time"} Time Julian Century

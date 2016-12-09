@@ -1,0 +1,26 @@
+<h1>Users</h1>
+
+<form class="user-form" action="/users/create" method="post">
+  <h2>New user</h2>
+  <label>
+    Name: <input type="text" name="name">
+  </label>
+  <label>
+    Email: <input type="text" name="email">
+  </label>
+  <button type="submit">
+    Create new user
+  </button>
+</form>
+
+<div class="users-list">
+  <h2>All users</h2>
+  <ul>
+    <% @users.each do |user| %>
+      <li>
+        <p><strong><%= user.name %></strong></p>
+        <p><%= user.email %></p>
+      </li>
+    <% end %>
+  </ul>
+</div>

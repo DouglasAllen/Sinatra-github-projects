@@ -1,0 +1,14 @@
+<div id='sidemenu'>
+  <div id='links'>
+    <p>Links</p>
+    <p><a href=''>Put your links there !</a></p>
+  </div>
+  <% if @posts %>
+    <div id='posts-list'>
+      <p>Posts</p>
+      <% @posts.each do |post| %>
+        <p><a href="/posts/<%= post.id %>"><%= post.title %></a></p>
+      <% end %>
+    </div>
+  <% end %>
+</div>

@@ -1,0 +1,47 @@
+%html
+  %head
+    %title time_julian_century
+  %body
+  - if @solar    
+    %h1
+      t = Time Julian Century
+    %h2
+      Calculations are made with the Universal Time Coordinate or GMT of the current time.    
+    %h3{:style => "color: #ff0000"}= "Time now UTC = #{Time.now.utc}"
+    %h3
+      %input{:style => "font-weight: bold; color: #00a", :value => "  #{@solar.ajd_time(Time.now.utc)}"} = the actual parameter ( t ) being input now.
+    %h3 Note: AJDN with fractional day.
+    %h3 The Ruby method is:
+    %h3
+      %pre
+        :preserve
+        
+          def  time_julian_century( t = Time.new( 2000, 1, 1, 12 ))
+
+            # The J2000.0 epoch is precisely Julian date 2451545.0
+            # The TT ( Terrestrial Time ) = January 1, 2000, 12:00 pm.
+            # Julian Period Day Number J2000.0 is subtracted from ajd_time
+
+            t.nil? ? t = Time.new( 2000, 1, 1, 12 ) : t # check for nil
+
+            # Determine if input parameter is a jd number or a Time object
+
+            Date.valid_jd?( t ) ? jd = t : jd = ajd_time( t )
+            t.class == Time ? jd = ajd_time( t ) : jd = t
+            # An array of powers is returned to keep things dry
+            t = ( jd - J2000 ) / 36525.0
+            t2 = t * t
+            t3 = t * t2
+            t4 = t * t3
+            t5 = t * t4
+            [ t, t2, t3, t4, t5 ] 
+               
+          end
+
+    %h3 The returned value =
+    %h3
+      %input{:style => "font-weight: bold; width :850px; color: #00a", :value => "    #{@solar.time_julian_century(@solar.ajd_time(Time.now.utc))}"}    
+    %h3
+      The array returned from this method is used for the time parameter ( t ) passed into the rest of the calculation methods.
+    %h3
+      %a{:href => "/mean"} Mean Anomaly

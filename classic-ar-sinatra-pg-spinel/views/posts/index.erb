@@ -1,0 +1,8 @@
+<% @posts.each do |post| %>
+  <div id="<%= post.id %>">
+    <h3><%= post.title %><br><span class="text-grey"><small><%= post.created_at %></small></span></h3>
+    <p style='font-size:30px;'><%= post.body %></p>
+    <%= '<hr>' unless post == @posts.last %>
+  </div>
+<% end %>
+

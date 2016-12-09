@@ -1,0 +1,13 @@
+development:
+  adapter: sqlite3
+  database: db/sinatra_record.sqlite3
+
+test:
+  adapter: sqlite3
+  database: db/sinatra_record_test.sqlite3
+
+#production:
+#  adapter: mysql
+#  database: sinatra_record
+#  pool : 5
+#  timeout: 5000

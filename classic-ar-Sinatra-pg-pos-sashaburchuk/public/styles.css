@@ -1,0 +1,55 @@
+*::before, *::after, * {
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+}
+
+html {
+  text-rendering: optimizeLegibility;
+  -webkit-font-variant-ligatures: common-ligatures discretionary-ligatures;
+  -moz-font-variant-ligatures: common-ligatures discretionary-ligatures;
+  font-variant-ligatures: common-ligatures discretionary-ligatures;
+  -webkit-font-feature-settings: "kern" 1, "liga" 1, "dlig" 1;
+  -moz-font-feature-settings: "kern" 1, "liga" 1, "dlig" 1;
+  font-feature-settings: "kern" 1, "liga" 1, "dlig" 1;
+  -webkit-font-kerning: normal;
+  -moz-font-kerning: normal;
+  font-kerning: normal;
+}
+
+
+/* End of our reset */
+
+/* Global CSS */
+body {
+  width: 100%;
+  max-width: 1000px;
+  min-width: 320px;
+  height: 100%;
+  margin: 0 auto;
+  font-family: 'Lato', sans-serif;
+}
+
+h1 {
+  font-family: 'Oswald', sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+  max-width: 600px;
+  min-height: 500px;
+  height: auto;
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(25%);
+  -ms-transform: translateY(25%);
+  transform: translateY(25%);
+  padding: 35px;
+  background-color: rgb(177, 255, 240);
+}

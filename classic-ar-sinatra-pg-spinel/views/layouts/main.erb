@@ -1,0 +1,22 @@
+<html>
+<head>
+  <title>Your blog title here</title>
+  <meta charset='UTF-8'>
+  <link rel='stylesheet' href="<%= url('/stylesheets/style.css') %>" type='text/css'>
+  <script src="//cdn.ckeditor.com/4.4.5/basic/ckeditor.js"></script>
+  <script type='text/javascript' src="<%= url('/javascripts/jquery-1.11.1.min.js') %>"></script>
+  <script type='text/javascript' src="<%= url('/javascripts/sidemenu.js') %>"></script>
+</head>
+<body>
+  <div id='header'>
+    <a href='/'><h1>Your blog title here !</h1></a>
+    <h2><%= pick_random_line %></h2>
+  </div>
+  <div id='wrapper'>
+    <%= erb(:'layouts/sidemenu', layout: false) %>
+    <div id='content'>
+      <%= yield %>
+    </div>
+  </div>
+</body>
+</html>

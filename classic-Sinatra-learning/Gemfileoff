@@ -1,0 +1,9 @@
+source 'https://rubygems.org'
+
+#ruby '2.0.0' # use only for the deployed app as we don't know what version you have.
+
+gem 'sinatra', :git => 'https://github.com/DouglasAllen/sinatra.git'
+gem 'rack', :git => 'https://github.com/DouglasAllen/rack.git', :branch => '1-6-stable'
+gem 'rack-protection', :git => 'https://github.com/DouglasAllen/rack-protection.git'
+gem 'tilt', :git => 'https://github.com/DouglasAllen/tilt.git'
+gem 'json_pure', :git => 'https://github.com/DouglasAllen/json.git'

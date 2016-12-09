@@ -1,0 +1,10 @@
+<h1>All Users</h1>
+
+<% @users.each do |user| %>
+  <h3>Name: <%= user['name'] %></h3>
+  <img src="<%= user['avatar_url'] = Faker::Avatar.image %>"
+  <ul>
+    <li>user name: <%= user['username'] %></li>
+    <li>email:     <%= user['email'] %></li>
+  </ul>
+<% end %>

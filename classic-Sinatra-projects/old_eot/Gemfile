@@ -1,0 +1,11 @@
+source "http://rubygems.org"
+
+ruby '1.9.3'
+gem "thin"
+gem "sinatra"
+gem 'rest-client'
+gem 'crack'
+gem "haml"
+gem "safe_yaml"
+
+

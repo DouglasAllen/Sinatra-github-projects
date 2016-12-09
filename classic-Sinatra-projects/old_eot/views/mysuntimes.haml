@@ -1,0 +1,53 @@
+%html
+  %head
+    %title suntimes
+  %body
+    %h1 Sun Times
+    %h2
+      This uses equation of time gem and Google Geocoding API.
+      %br
+      > gem install equation_of_time
+      %br
+      Or clone it from here
+      %br
+      %a{:href => "https://github.com/DouglasAllen/equation_of_time"} github repo
+    %h2 The default date is today.
+    %h3
+      Time Zone is not used here. All time results will be in UTC time or your servers time.
+      %br/
+      The default Latitude and Longitude are set for the default location showing in the address box.
+      %br/
+      Make your entries as precise as possible and comma seperated or you may experience errors.
+      %br/
+      EX: 1600 Amphitheatre Parkway, Mountain View, CA
+      %br/      
+    %p
+      Compare to
+      %a{:href => "http://www.esrl.noaa.gov/gmd/grad/solcalc/"} web calculator
+    - if @solar
+      - @solar.date = Date.today.to_s      
+      %form{"accept-charset" => "utf-8", :action => "/mysuntimes", :method => "post"}
+        %p
+          %b Address
+          %br/           
+          %input{:style => "font-weight: bold; width :850px; color: #00a", :name => "address", :type => "text", :value => "#{@geo.addr}"}/           
+        %p
+          %b Latitude : ( minus if south )
+          %br/
+          %input{:style => "font-weight: bold; color: #00a", :name => "latitude", :type => "text", :value => "  #{@latitude}"}/          
+        %p
+          %b Longitude : ( minus if west )
+          %br/
+          %input{:style => "font-weight: bold; color: #00a", :name => "longitude", :type => "text", :value => "  #{@longitude}"}/            
+        %p
+          %b Sunrise UTC :
+          %br/
+          %input{:style => "font-weight: bold; color: #00a", :name => "sunrise", :size => "24", :type => "text", :value => "   #{@solar.sunrise_time(@solar.date.to_s).to_time}"}/
+        %p
+          %b Sunset UTC :
+          %br/
+          %input{:style => "font-weight: bold; color: #00a", :name => "sunset", :size => "24", :type => "text", :value => "   #{@solar.sunset_time(@solar.date.to_s).to_time}"}/
+        %p
+          %input{:type => "submit", :value => "calculate"}/
+    %h3
+      %a{:href => "/links"} External Links

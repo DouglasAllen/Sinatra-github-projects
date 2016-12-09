@@ -1,0 +1,136 @@
+%html
+  %head
+    %title Main Page
+  %body
+    %h1
+      Welcome to Heroku apps.
+      %br
+      This is a Ruby/Rack app using Sinatra.
+      %br
+      Without too much detail I will only attempt to describe how this gem works.
+      %br
+      Equation of Time : &Delta; = ( &Mu; - &nu; ) + ( &lambda; - &alpha; )
+    %h2 delta = mu - nu + lambda - alpha
+    %h3
+      The "Equation of Time" is used to align solar events with clock time.
+      %br
+      It works for most locations except those past the arctic circles.
+      %br      
+      Your longitude is referenced from the Prime Meridian of zero longitude.
+      %br
+      If you are west of it then your longitude has a minus sign.
+      %br
+      If you are east of it then your longitude has a positive sign.   
+      %br
+      Longitude can be converted to a time by just dividing it by 15.0.
+      %br
+      %br
+      Your longitude converted to time is termed "Longitude Hour".
+      %br
+      This is (your) Mean Solar Transit Time.
+      %br
+      Example: You are at -75.324 degrees longitude.
+      %br
+      The Mean Solar Transit Time will be ( -75.342 / 15.0 ) -5.0228 hours
+      %br
+      later than the Solar Transit at the Prime Meridian.
+      %br 
+      Example: 12 - ( -75.342 / 15.0 ) = 17.0228 hours UTC.
+      %br
+      UTC is the reference Time Zone sometimes called "zulu" time.
+      %br
+      %br 
+      The Equation of Time is then subtracted from your Mean Solar Transit Time.
+      %br
+      This will be the actual clock time or your True Solar Transit Time.
+      %br
+      Lets say that "EOT" = - 4 minutes and 40 seconds. ( -0.0777778)hr
+      %br
+      Example : 17.0228 - ( -0.0777778 ) =  17.1005778 hr. UTC
+      %br
+      Note: This time is in decimal format. You will have to convert it.
+      %br
+      %br 
+      This time can then be converted to your time zone by adding your zone offset.
+      %br
+      Example : - 5 if West or + 5 if East of the Prime Meridian.
+      %br
+      A shadow of a stake would point North or South at this time depending on your location from the Equator.
+      %br
+      Now we have a reasonable place to start if we wish to calculate the sunrise or sunset for our location.
+      %br
+      I have included methods in this gem to do exactly that. See below.
+    %h3
+    %table
+      %tr
+        %td
+          %h3
+            %a{:href => "date"} JDN
+        %td
+          %h3
+            About using Julian Day Number            
+      %tr
+        %td
+          %h3
+            %a{:href => "time"} TJC
+        %td
+          %h3
+            Calculations and use of one method; time_julian_centurey( ).
+      %tr
+        %td
+          %h3 
+            %li
+              %a{:href => "eot"} &Delta;
+        %td
+          %h3
+            Server time calculations using this gem.
+      %tr
+        %td
+          %h3
+            %li
+              %a{:href => "mean"} &Mu; 
+        %td
+          %h3
+            Calculations and use of one method;  mean_anomaly( ).
+            
+      %tr
+        %td
+          %h3
+            %li
+              %a{:href => "eqc"} &nu;           
+        %td
+          %h3
+            Calculations and use of one method;  true_anomaly( ).       
+      %tr
+        %td
+          %h3
+            %li
+              %a{:href => "ecliplong"} &lambda; 
+        %td
+          %h3
+            Calculations and use of one method; true_longitude( ).
+            
+      %tr
+        %td
+          %h3
+            %li
+              %a{:href => "rghtascn"} &alpha; 
+        %td
+          %h3
+            Calculations and use of one method; right_ascension( ).
+            
+      %tr
+        %td
+          %h3
+            %a{:href => "mysuntimes"} Times   
+        %td
+          %h3
+            Calculations and use of two methods; sunrise_time( ) and sunset_time( ).
+            
+      %tr
+        %td
+          %h3
+            %a{:href => "links"} Links 
+        %td
+          %h3
+            Some links to learn more about the Equation of Time.

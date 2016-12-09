@@ -1,0 +1,72 @@
+%html
+  %head
+    
+
+    %body
+    %h2 &Delta; = ( &Mu; - &nu; ) + ( &lambda; - &alpha; )
+    %h2 Delta = ( Mu - nu ) + ( lambda - alpha )
+    %h2 These terms are calculated using current time UTC.
+    %h2 Refresh the page to get updates
+    %h2 
+    %br
+    - if @solar
+      - ajd = @solar.ajd_time(Time.now.utc)
+      - t = @solar.time_julian_century(ajd)
+      - mean_anomaly = @solar.mean_anomaly(t)
+      - true_anomaly = @solar.true_anomaly(t)
+      - lambda = @solar.true_longitude(t)
+      - ra = @solar.right_ascension(t)      
+      - e1 = (mean_anomaly - true_anomaly) 
+      - e2 = (lambda - ra)
+      - eot = e1 + e2
+      - s_min = 4.0 * 360 / @solar.factor
+      - et = @solar.display_equation_of_time(eot * s_min)      
+      - now = @solar.show_minutes(eot * s_min)
+      - show_now = @solar.show_now
+    %h3          
+      %input{:style => "font-weight: bold; color: #00a", :value => "  #{mean_anomaly}"}/
+      \= Mu, Mean Anomaly of Sun in degrees decimal.
+    %h3          
+      %input{:style => "font-weight: bold; color: #00a", :value => "  #{true_anomaly}"}/
+      \= nu, True Anomaly of Sun in degrees decimal.
+    %h3
+      %input{:style => "font-weight: bold; color: #00a", :value => "  #{(e1)}"}/
+      \= &Delta; decimal degrees Mean - True
+    %h3
+      %input{:style => "font-weight: bold; color: #00a", :value => "  #{s_min}"}/
+      \= minutes per degree sidereal time and multiplying we get
+    %h3
+      %input{:style => "font-weight: bold; color: #00a", :value => "  #{e1 * s_min}"}/
+      \= &Delta;t decimal minutes for E1
+    %h3
+      %br
+    %h3
+      %input{:style => "font-weight: bold; color: #00a", :value => "  #{lambda}"}/
+      \= lambda, Ecliptic Longitude of Sun in degrees decimal.
+    %h3          
+      %input{:style => "font-weight: bold; color: #00a", :value => "  #{ra}"}/
+      \= alpha, Right Ascension of Sun in degrees decimal.
+    %h3
+      %input{:style => "font-weight: bold; color: #00a", :value => "  #{e2}"}/
+      \= &Delta; decimal degrees Ecliptic Longitude - Right Ascension
+    %h3
+      %input{:style => "font-weight: bold; color: #00a", :value => "  #{s_min}"}/
+      \= minutes per degree sidereal time and multiplying we get
+    %h3
+      %input{:style => "font-weight: bold; color: #00a", :value => "  #{e2 * s_min}"}/
+      \= &Delta;t decimal minutes for E2
+    %h3
+      %br
+    %h3          
+      %input{:style => "font-weight: bold; color: #00a", :value => "  #{(e1 + e2) * s_min}"}/
+      \= &Delta; minutes decimal Equation of Time now ( E1 + E2 ).   
+    %h3
+      %input{:style => "font-weight: bold; color: #00a", :value => "  #{@solar.show_now}"}/
+      \= &Delta; minutes:seconds Equation of Time now ( E1 + E2 ).
+    %br     
+    %div{:style => "background-color: orange; color: #000"}
+      Check it
+      %a{:href => "http://douglasallen.github.com/planets/"} here
+      for this date and time #{Time.now.utc}
+    %h3
+      %a{:href => "/date"} Julian Period Day Number

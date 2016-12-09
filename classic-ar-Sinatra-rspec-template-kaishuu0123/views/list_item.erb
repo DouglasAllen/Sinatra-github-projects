@@ -1,0 +1,7 @@
+<% unless @items.empty? %>
+  <% @items.each do |item| %>
+    <p><%= "#{item.id}:#{item.name}:#{item.description}" %></p>
+  <% end %>
+<% else %>
+  <p>no items.<a href='/create/item'>create items?</a></p>
+<% end %>

@@ -1,0 +1,23 @@
+<h3>Edit Post</h3>
+<form action="/posts/<%= @post.id %>" method='post' name='post'>
+  <input type='hidden' name='_method' value='put'>
+  <p><label for='post_title'>Title of your post</label></p>
+  <p><input id='post_title' name='post[title]' type='text' value="<%= @post.title %>"></p>
+  <p><label for='post_body'>Post content</label></p>
+  <p><textarea id='post_body' name='post[body]' rows='10'><%= @post.body %></textarea></p>
+  <script>CKEDITOR.replace( 'post_body' );</script>
+  <p><label for='post_published'>Publish this post ?</label></p>
+  <% if @post.published? %>
+    <p>
+      <label><input type='radio' name='post[published]' value='true' checked>  Yes please</label>
+      <label><input type='radio' name='post[published]' value='false'>  No, not now</label>
+    </p>
+  <% else %>
+    <p>
+      <label><input type='radio' name='post[published]' value='true'>  Yes please</label>
+      <label><input type='radio' name='post[published]' value='false' checked>  No, not now</label>
+    </p>
+  <% end %>
+  <input type='submit' value='Submit'>
+</form>
+

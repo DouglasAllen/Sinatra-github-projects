@@ -1,0 +1,37 @@
+source 'https://rubygems.org'
+
+ruby '2.2.3'
+
+gem 'activerecord'
+gem 'activesupport'
+
+gem 'bcrypt'
+
+gem 'flowdock'
+
+gem 'omniauth-github'
+
+gem 'pg'
+
+gem 'sinatra'
+gem 'sinatra-contrib' # has sinatra/reloader
+gem 'sinatra-flash'
+gem 'thin'
+
+group :development, :test do
+  gem 'dotenv'
+  gem 'faker'
+  gem 'minitest'
+  gem 'pry-byebug'
+  gem 'rake'
+  gem 'rspec'
+  gem 'shotgun'
+  gem 'sinatra-activerecord'
+  gem 'sqlite3'
+end
+
+
+
+
+
+

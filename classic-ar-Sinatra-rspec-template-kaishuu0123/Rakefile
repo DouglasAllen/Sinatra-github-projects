@@ -1,0 +1,16 @@
+require 'sinatra'
+require 'sinatra/activerecord'
+require 'sinatra/activerecord/rake'
+require './app'
+
+ActiveRecord::Tasks::DatabaseTasks.root   = File.expand_path('.')
+ActiveRecord::Tasks::DatabaseTasks.db_dir = 'db' # For activerecord 4.1.0.(doesn't need to be specified in 4.0.2)
+
+task :default => [:spec]
+task :rebuild do
+  raise "Not allowed to run on production" if production?
+
+  Rake::Task['db:drop'].execute
+  Rake::Task['db:create'].execute
+  Rake::Task['db:migrate'].execute
+end

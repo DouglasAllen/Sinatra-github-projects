@@ -1,0 +1,57 @@
+<h1>Point Of Sale</h1>
+
+<% if @items.any?() %>
+<p>Items we have in stock:</p>
+  <ul>
+  <% @items.each() do |item| %>
+    <li><span><%= item.name() %></span><span style="margin-left: 10px;">$<%= item.price() %></span></li>
+  <% end %>
+  </ul>
+<% else %>
+  <p>You don't have any items!</p>
+<% end %>
+<hr>
+
+<!-- Add a product -->
+<form method="post" action="/manager">
+  <label>Add an item:</label>
+  <input name="item_name" type="text" placeholder="Item Name">
+  <input name="item_price" type="text" placeholder="Price">
+  <br>
+  <button class="btn btn-success" value="submit">Submit</button>
+</form>
+<hr>
+
+<!--Update a product-->
+<form method="post" action="/manager">
+  <input name="_method" type="hidden" value="patch">
+  <div class="form-group">
+    <label class="form-label" for="item_id">Select item to edit:</label>
+    <select name="item_id">
+      <% Item.all().each() do |item| %>
+        <option value="<%= item.id() %>"><%= item.name() %></option>
+      <% end %>
+    </select>
+    <input name="item_name" type="text" placeholder="Item Name">
+    <input name="item_price" type="text" placeholder="Price">
+  </div>
+  <button type="submit" class="btn btn-success">Update</button>
+</form>
+<hr>
+
+<!-- Delete a product -->
+<form method="post" action="/manager">
+  <input name="_method" type="hidden" value="delete">
+  <div class="form-group">
+    <label class="form-label" for="item_id">Delete an item:</label>
+    <select name="item_id">
+      <% Item.all().each() do |item| %>
+        <option value="<%= item.id() %>"><%= item.name() %></option>
+      <% end %>
+    </select>
+  </div>
+  <button type="submit" class="btn btn-danger">Delete Item!</button>
+</form>
+
+<hr>
+<a href="/">Back</a>

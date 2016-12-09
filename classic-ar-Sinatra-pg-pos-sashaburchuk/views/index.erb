@@ -1,0 +1,22 @@
+<h1>Point Of Sale</h1>
+
+<% if @items.any?() %>
+  <% @items.each() do |item| %>
+  <form action="/purchases" method="post">
+    <div class="form-group">
+      <input type="hidden" name="_method" value="patch">
+      <input type="checkbox" name="item_ids[]" value="<%= item.id() %>" required>
+      <label class="item-name"><%= item.name() %></label>
+      <label class="item-price">$<%= item.price() %></label>
+    </div>
+  <% end %>
+    <button type="submit" class="btn btn-success">Buy</button>
+  </form>
+
+<% else %>
+  <p>You don't have any items!</p>
+<% end %>
+<hr>
+
+
+<a href="/manager">Manager</a>

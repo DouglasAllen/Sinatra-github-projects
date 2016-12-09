@@ -1,0 +1,14 @@
+<p>You can create a new post <a href='/posts/new'>here</a>.</p>
+<hr>
+<h3>List of your posts</h3>
+<% @posts.each do |post| %>
+  <h4><%= post.title%><h4>
+  <p>
+    <%= post.created_at %> -
+    <small class=<%= post.published? ? 'post-published' : 'post-unpublished' %>>
+      <b><%= post.published? ? 'published' : 'private' %></b>
+    </small> -
+    <a href="/posts/<%= post.id %>/edit">Edit</a>
+  </p>
+  <%= '<hr>' unless post == @posts.last %>
+<% end %>
