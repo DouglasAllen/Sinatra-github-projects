@@ -153,9 +153,22 @@
 * Sinatra Omniauth Example https://github.com/LaunchAcademy/sinatra-omniauth-pg-example
 * Dentaku Zen Garden https://github.com/PracticingDeveloper/dentaku-zen-garden
 * reports https://github.com/PracticingDeveloper/reports
-*
-*
-*
+* https://github.com/apruve/apruve-ruby-demo Apruve Ruby Demo
+* https://github.com/wdi-sf-jan/snack_exercise Snack App
+* https://github.com/ashwinbalaguru/sinatra-activerecord sinatra-activerecord
+* https://github.com/LaunchAcademy/sinatra-activerecord-starter-kit Sinatra Active Record Starter Kit
+* https://github.com/peterlum/Database-Sinatra Tables, Schema, ActiveRecord and migrations
+* https://github.com/Gmfholley/07-16-Active-Record-Atomics
+* https://github.com/laurenemarcus/point_of_sale
+* https://github.com/unamaria/ih-week2 ERB, ActiveRecord, RSpec, TDD
+* https://github.com/aparra/my.self.travelling omniauth and twitter
+* https://github.com/jbolanos707/Band_Tracker Band_Tracker
+* https://github.com/roberttaraya/sinatra-blog simple blog
+* https://github.com/SpencerCDixon/Sinatra-Movies-PG site using postgres
+* https://github.com/sethhochberg/sinatra-base-skeleton Rails-like file structure
+* https://github.com/morganmccrory/web-flashcards-challenge web-flashcards-challenge
+* https://github.com/driftingwave/Sinatra_and_ActiveRecord-Users_Skills_and_Proficiencies
+* https://github.com/thedanpan/sinatra-mvc-skeleton sinatra-mvc-skeleton
 *
 *
 *
