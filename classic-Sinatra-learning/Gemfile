@@ -1,0 +1,10 @@
+
+source 'https://rubygems.org'
+
+# ruby '2.0.0' # use only for the deployed app as we don't know what version you have.
+
+gem 'sinatra'
+gem 'rack'
+gem 'rack-protection'
+gem 'tilt'
+gem 'json_pure'

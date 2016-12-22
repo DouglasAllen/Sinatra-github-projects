@@ -6,144 +6,149 @@ https://github.com/jasontorres/sinatra-activerecord-tasks
 
 ## Clssic style
 
-* https://github.com/Ajeo/sinatra-boilerplate sinatra boilerplate
-* https://github.com/andrewmcc/sinatra-boilerplate sinatra boilerplate
+* https://github.com/247webdev/Week05-Lecture5_Sinatra_pg_My-Work Week05-Lecture5
+* https://github.com/Ajeo/sinatra-boilerplate boilerplate
+* https://github.com/andrewmcc/sinatra-boilerplate boilerplate
 * https://github.com/antirez/lamernews lamernews
 * https://github.com/aparra/my.self.travelling omniauth and twitter
 * https://github.com/apruve/apruve-ruby-demo Apruve Ruby Demo
-* https://github.com/ashwinbalaguru/sinatra-activerecord sinatra-activerecord
-* https://github.com/charliepark/sinatra_boilerplate Sintara Boilerplate
-* https://github.com/code-for-coffee/SinatraBoilerplate Sinatra Backbone Boilerplate
-* https://github.com/codelittle/sinatra-h5bp Sinatra + HTML5 Boilerplate
+* https://github.com/ashbb/cold-sky-27 First Step in Ruby DSL
+* https://github.com/ashwinbalaguru/sinatra-activerecord activerecord
+* https://github.com/athega/bootstrap-backbone-and-sinatra Bootstrap for Backbone.js, Jasmine, Guard, Minitest
+* https://github.com/austinsprawls/ye_list activerecord
+* https://github.com/basvid/sinatra-blog-with-activerecord-tux blog-with-activerecord-tux
+* https://github.com/bertiewooster/Sinatra-ActiveRecord-Postgres-example ActiveRecord-Postgres-example
+* https://github.com/brownman/sakadasan_ranking sakadasan_ranking
+* https://github.com/brunofbrito/product-manager-sinatra-activerecord Store Manager Active Record
+* https://github.com/c13iscuit/meetups_in_space ActiveRecord
+* https://github.com/charliepark/sinatra_boilerplate Boilerplate
+* https://github.com/code-for-coffee/SinatraBoilerplate Backbone Boilerplate
+* https://github.com/codelittle/sinatra-h5bp HTML5 Boilerplate
 * https://github.com/colbyshores/IPtoDHCP IPtoDHCP
-* https://github.com/craigulliott/boilerplate_sinatra sinatra boilerplate
+* https://github.com/courtneyphillips/band-tracker Keeping Tabs
+* https://github.com/cpkenn09y/Using-Sinatra-with-ActiveRecord ActiveRecord
+* https://github.com/craigulliott/boilerplate_sinatra boilerplate
 * https://github.com/cyr3ne/Legal-Dictionary Legal Term Dictionary
-* https://github.com/dbarison/sinatra-html5-compass-boilerplate sinatra-html5-compass-boilerplate
-* https://github.com/derickbailey/backbone-sinatra-boilerplate Backbone-Sinatra Boilerplate
-* https://github.com/DGaffney/sinatra_boilerplate sinatra boilerplate
+* https://github.com/dbarison/sinatra-html5-compass-boilerplate html5-compass-boilerplate
+* https://github.com/derickbailey/backbone-sinatra-boilerplate Backbone Boilerplate
+* https://github.com/DGaffney/sinatra_boilerplate boilerplate
+* https://github.com/driftingwave/Sinatra_and_ActiveRecord-Users_Skills_and_Proficiencies
 * https://github.com/emaiax/sofss sofss
-* https://github.com/esmevane/sinatra-boilerplate sinatra boilerplate
-* https://github.com/evanleck/sinatra-boilerplate sinatra boilerplate
-* https://github.com/FTBpro/sinatra-boilerplate Sintara Boilerplate
-* https://github.com/furu/sinatra_boilerplate Sintara Boilerplate
+* https://github.com/esmevane/sinatra-boilerplate boilerplate
+* https://github.com/evanleck/sinatra-boilerplate boilerplate
+* https://github.com/FTBpro/sinatra-boilerplate Boilerplate
+* https://github.com/furu/sinatra_boilerplate Boilerplate
+* https://github.com/ga-wdi-boston/wdi_3_ruby_demo_sinatra_activerecord activerecord-example
+* https://github.com/Gene5ive/Recipe_Box Recipe Box
 * https://github.com/Gmfholley/07-16-Active-Record-Atomics
+* https://github.com/gorsuch/sinatra-omniauth-example omniauth-example
+* https://github.com/gthall1/movies movies
 * https://github.com/heroku/databasedotcom-api-demo databasedotcom-api-demo
-* https://github.com/heroku/fuji-sinatra Fuji Template Sinatra
+* https://github.com/heroku/fuji-sinatra Fuji Template
 * https://github.com/heroku/sushi sushi
-* https://github.com/Ianfeather/sinatra-boilerplate sinatra boilerplate
+* https://github.com/Ianfeather/sinatra-boilerplate boilerplate
+* https://github.com/ion-channel/agmockapp agmockapp
 * https://github.com/jamaga/IronhackMBD Iron hack MBD
 * https://github.com/jbolanos707/Band_Tracker Band_Tracker
-* https://github.com/johntopley/sinatra-authentication Sinatra Authentication Example
-* https://github.com/karlcoelho/sinatra-boilerplate Sinatra Boilerplate
-* https://github.com/latentflip/sinatra-heroku-boilerplate Sinatra / Heroku / HTML5 Boilerplate / 960 Grid System starter app
-* https://github.com/LaunchAcademy/sinatra-activerecord-starter-kit Sinatra Active Record Starter Kit
-* https://github.com/LaunchAcademy/sinatra-pg-heroku sinatra pg heroku
+* https://github.com/jdno/sinatra-api-template API template
+* https://github.com/johnantoni/sinatra.twitter twitter
+* https://github.com/johntopley/sinatra-authentication Authentication Example
+* https://github.com/jpark3000-DBC/lucky_ajax ActiveRecord, JQuery, and AJAX
+* https://github.com/jpark3000-DBC/sinatra_racer racer
+* https://github.com/karlcoelho/sinatra-boilerplate Boilerplate
+* https://github.com/katcarr/employee_tracker Employee Tracker
+* https://github.com/katieblair/contact_manager Contact Manager
+* https://github.com/kierarad/craigslist_jr craigslist_jr
+* https://github.com/kmb40/kyles-blog postgreSQL
+* https://github.com/latentflip/sinatra-heroku-boilerplate Heroku / HTML5 Boilerplate / 960 Grid System starter app
+* https://github.com/LaunchAcademy/sinatra-activerecord-starter-kit Active Record Starter Kit
+* https://github.com/LaunchAcademy/sinatra-pg-heroku pg heroku
 * https://github.com/laurenemarcus/point_of_sale
 * https://github.com/laurenemarcus/survey survey
-* https://github.com/lucymhdavies/sinatra-boilerplate LMHD Sinatra Boilerplate
-* https://github.com/matsu911/sinatra_pg Simple Sinatra Project Generator
-* https://github.com/mdavidgreen/sinatra-bourbon sinatra-bourbon
+* https://github.com/lucymhdavies/sinatra-boilerplate LMHD Boilerplate
+* https://github.com/mateuspontes/Sinatra_ActiveRecord ActiveRecord
+* https://github.com/matsu911/sinatra_pg Simple Project Generator
+* https://github.com/mattgaidica/ActiverecordSinatra Activerecord
+* https://github.com/mdavidgreen/sinatra-bourbon bourbon
 * https://github.com/michaelarmstrong/Mockacino Mockacino
-* https://github.com/michaelminter/sinatra-boilerplate Sintara Boilerplate
-* https://github.com/mislav/sinatra-boilerplate sinatra boilerplate
-* https://github.com/mightyGaby/sinatra-mailing-list-boilerplate sinatra-mailing-list-boilerplate
-* https://github.com/mmwtsn/sinatra-boilerplate sinatra boilerplate
+* https://github.com/michaelminter/sinatra-boilerplate Boilerplate
+* https://github.com/mislav/sinatra-boilerplate boilerplate
+* https://github.com/mightyGaby/sinatra-mailing-list-boilerplate mailing-list-boilerplate
+* https://github.com/mjhea0/sinatra-lands ActiveRecord + Tux + Bootstrap
+* https://github.com/mmwtsn/sinatra-boilerplate boilerplate
 * https://github.com/morganmccrory/web-flashcards-challenge web-flashcards-challenge
-* https://github.com/naoya/boilerplate sinatra boilerplate
+* https://github.com/MrBean83/Ph2_PrAss_Pt-1.-Sinatra-ActiveRecord--Users--Skills--and-Proficiencies ActiveRecord
+* https://github.com/multitask07/site_ecommerce_sinatra_activerecord e-commerce
+* https://github.com/naoya/boilerplate boilerplate
 * https://github.com/nateklaiber/omniauth-automatic-example omniauth-automatic-example
-* https://github.com/nlevchuk/mockup_sinatra_app mockup sinatra app
-* https://github.com/Nogbit/rethink_sinatra_mockbug rethink_sinatra_mockbug
-* https://github.com/paulstefanort/sinatra-starter Sinatra Starter Kit
+* https://github.com/nlevchuk/mockup_sinatra_app mockup app
+* https://github.com/Nogbit/rethink_sinatra_mockbug rethink_mockbug
+* https://github.com/paulstefanort/sinatra-starter Starter Kit
 * https://github.com/peterlum/Database-Sinatra Tables, Schema, ActiveRecord and migrations
-* https://github.com/robbin/sinatratest sinatratest
+* https://github.com/PierreGambarotto/sinatra-skeleton Squelette pour application ActiveRecord
+* https://github.com/RandyDavis/Sinatra-ActiveRecord-Heroku Active Record with a deployment to Heroku
+* https://github.com/robbin/sinatratest test
 * https://github.com/roberttaraya/sinatra-blog simple blog
-* https://github.com/robinsingh1/Sinatra-Boilerplate Sintara Boilerplate
-* https://github.com/ronnqvist/simple-sinatra-html5boilerplate simple-sinatra-html5boilerplate
-* https://github.com/rziehl/sinatra-boilerplate sinatra boilerplate
-* https://github.com/sapotero/sinatra-boilerplate sinatra boilerplate
+* https://github.com/robinsingh1/Sinatra-Boilerplate Boilerplate
+* https://github.com/ronnqvist/simple-sinatra-html5boilerplate simple-html5boilerplate
+* https://github.com/rziehl/sinatra-boilerplate boilerplate
+* https://github.com/sapotero/sinatra-boilerplate boilerplate
 * https://github.com/sethhochberg/sinatra-base-skeleton Rails-like file structure
-* https://github.com/sinatra/sinatra-template sinatra template
+* https://github.com/sinatra/sinatra-template template
+* https://github.com/solyaris/sinatra-api-server-toolbox API Server Toolbox
+* https://github.com/spannerj/ActiverecordSinatra-master Activerecord
+* https://github.com/SpencerCDixon/LaunchPairs Launch Pairs
 * https://github.com/SpencerCDixon/Sinatra-Movies-PG site using postgres
 * https://github.com/spinkyt/Gmail-Mockup Gmail Mockup
-* https://github.com/superhighfives/sinatra-boilerplate Sintara Boilerplate
+* https://github.com/superhighfives/sinatra-boilerplate Boilerplate
+* https://github.com/thedanpan/sinatra-mvc-skeleton mvc-skeleton
+* https://github.com/thejessleigh/sinatra-practice-m practice with activerecord
 * https://github.com/timwaters/whooms WhooMS
-* https://github.com/tomsquest/sinatra-html5boilerplate sinatra-html5boilerplate
-* https://github.com/tracegilton/sinatra-boilerplate sinatra boilerplate
+* https://github.com/tomgalpin/potluck_manager potluck_manager
+* https://github.com/tomsquest/sinatra-html5boilerplate html5boilerplate
+* https://github.com/torquebox/ballast-sinatra ballast
+* https://github.com/tracegilton/sinatra-boilerplate boilerplate
 * https://github.com/ultrasaurus/dusty-attic dusty-attic
 * https://github.com/unamaria/ih-week2 ERB, ActiveRecord, RSpec, TDD
+* https://github.com/vmitchell/sinatra_structure structure
+* https://github.com/wapptastic/Sinatra-Todo-app-with-Datamapper-using-Postgres-and-JSON Todo Postgres Datamapper JSON
 * https://github.com/wdi-sf-jan/snack_exercise Snack App
 * https://github.com/wstrinz/oauth-get oauth-get
 
 
+* https://github.com/miminashi/sprite-orbits-mock-sinatra sprite-orbits-mock
+* https://github.com/runemadsen/Sinatra-Activerecord-Bundler-Example Activerecord-Bundler-Example
+* https://github.com/jcsjcs/dbstruct dbstruct and tablemigrations
 
-* https://github.com/driftingwave/Sinatra_and_ActiveRecord-Users_Skills_and_Proficiencies
-* https://github.com/thedanpan/sinatra-mvc-skeleton sinatra-mvc-skeleton
-* https://github.com/athega/bootstrap-backbone-and-sinatra Bootstrap for Backbone.js, Jasmine, Guard, Sinatra and Minitest
-* https://github.com/jpark3000-DBC/sinatra_racer sinatra_racer
+* https://github.com/laurenemarcus/employee_tracker employee_tracker
+* https://github.com/djpowers/contact_manager Contact Manager
+* https://github.com/heroku/ruby-sample ruby-sample
 
-* https://github.com/multitask07/site_ecommerce_sinatra_activerecord e-commerce
-* https://github.com/basvid/sinatra-blog-with-activerecord-tux sinatra-blog-with-activerecord-tux
-* https://github.com/Gene5ive/Recipe_Box Recipe Box
-* https://github.com/MrBean83/Ph2_PrAss_Pt-1.-Sinatra-ActiveRecord--Users--Skills--and-Proficiencies Sinatra-ActiveRecord
+* https://github.com/jeffols/omniauth-37signals-example example using omniauth-37signals
+* https://github.com/lemmycaution/sinatra-ar-dokku-example Digital Ocean Dokku
+* https://github.com/supercerealgore/pg-ar-sinatra pg-ar
 
-* https://github.com/jpark3000-DBC/lucky_ajax Sinatra, ActiveRecord, JQuery, and AJAX
-* https://github.com/c13iscuit/meetups_in_space Sinatra, ActiveRecord
-* https://github.com/cpkenn09y/Using-Sinatra-with-ActiveRecord Sinatra, ActiveRecord
-* https://github.com/austinsprawls/ye_list sinatra-activerecord
-* https://github.com/kmb40/kyles-blog Sinatra, postgreSQL
+* https://github.com/wuleicanada/myapp myapp
+* https://github.com/heroku/badgr badgr
+* https://github.com/mkwiatkowski/jruby-sinatra-starter-kit JRuby starter kit for Shelly Cloud
 
-* https://github.com/mattgaidica/ActiverecordSinatra ActiverecordSinatra
-* https://github.com/spannerj/ActiverecordSinatra-master ActiverecordSinatra-master
-* https://github.com/solyaris/sinatra-api-server-toolbox Sinatra API Server Toolbox
-* https://github.com/SpencerCDixon/LaunchPairs Launch Pairs
-* https://github.com/courtneyphillips/band-tracker Keeping Tabs
-* https://github.com/katcarr/employee_tracker Employee Tracker
+* https://github.com/hpowers/Nokogiri-Ruby-Tutorial Data Scraping Nokogiri, and Heroku
+* https://github.com/sinatra/heroku-sinatra-app heroku-app
+* https://github.com/nanodeath/SinatraHamlSignin Haml Signin Sample App
 
-* sakadasan_ranking https://github.com/brownman/sakadasan_ranking
-* Sinatra API template https://github.com/jdno/sinatra-api-template
-* potluck_manager https://github.com/tomgalpin/potluck_manager
-* sinatra-omniauth-example https://github.com/gorsuch/sinatra-omniauth-example
-* movies https://github.com/gthall1/movies
-* sinatra.twitter https://github.com/johnantoni/sinatra.twitter
-* ballast-sinatra https://github.com/torquebox/ballast-sinatra
+* https://github.com/hatboysam/sinatra-activerecord-heroku ActiveRecord on Heroku Postgres
+* https://github.com/trostli/Sinatra_PG_template PG_template
+* https://github.com/ga-wdi-exercises/tunr_sinatra Tunr 1.0!
 
-* Sinatra_ActiveRecord https://github.com/mateuspontes/Sinatra_ActiveRecord
-* agmockapp https://github.com/ion-channel/agmockapp
-* craigslist_jr https://github.com/kierarad/craigslist_jr
-* Contact Manager https://github.com/katieblair/contact_manager
-* Sinatra-ActiveRecord-Postgres-example https://github.com/bertiewooster/Sinatra-ActiveRecord-Postgres-example
-* sinatra_structure https://github.com/vmitchell/sinatra_structure
+* https://github.com/ukutaht/sinatra_json_skeleton json_skeleton
+* https://github.com/dandydanny/383_skills_and_proficiencies_redux  383_skills_and_proficiencies_redux
+* https://github.com/heroku/12factor The Twelve-Factor App
 
-* First Step in Ruby DSL https://github.com/ashbb/cold-sky-27
-* sprite-orbits-mock-sinatra https://github.com/miminashi/sprite-orbits-mock-sinatra
-* Sinatra-Activerecord-Bundler-Example https://github.com/runemadsen/Sinatra-Activerecord-Bundler-Example
-* dbstruct and tablemigrations https://github.com/jcsjcs/dbstruct
-* employee_tracker https://github.com/laurenemarcus/employee_tracker
-* Contact Manager https://github.com/djpowers/contact_manager
-* Week05-Lecture5_Sinatra_pg_My-Work https://github.com/247webdev/Week05-Lecture5_Sinatra_pg_My-Work
-* ruby-sample https://github.com/heroku/ruby-sample
-* Sinatra example using omniauth-37signals https://github.com/jeffols/omniauth-37signals-example
+* https://github.com/heroku/heroku-oauth-example-ruby Heroku OAuth Example: Ruby
+* https://github.com/LaunchAcademy/sinatra-omniauth-example omniauth-example
+* https://github.com/RobertLowe/heroku-sinatra-pony-gmail-template heroku-pony-gmail-template
 
-* Digital Ocean Dokku Sinatra Example https://github.com/lemmycaution/sinatra-ar-dokku-example
-* pg-ar-sinatra https://github.com/supercerealgore/pg-ar-sinatra
-* myapp https://github.com/wuleicanada/myapp
-* badgr https://github.com/heroku/badgr
-* JRuby Sinatra starter kit for Shelly Cloud https://github.com/mkwiatkowski/jruby-sinatra-starter-kit
-
-* Data Scraping And More With Ruby, Nokogiri, Sinatra and Heroku https://github.com/hpowers/Nokogiri-Ruby-Tutorial
-* heroku-sinatra-app https://github.com/sinatra/heroku-sinatra-app
-* Sinatra+Haml Signin Sample App https://github.com/nanodeath/SinatraHamlSignin
-* Sinatra with ActiveRecord on Heroku Postgres https://github.com/hatboysam/sinatra-activerecord-heroku
-* Sinatra_PG_template https://github.com/trostli/Sinatra_PG_template
-* Tunr 1.0! https://github.com/ga-wdi-exercises/tunr_sinatra
-
-* sinatra_json_skeleton https://github.com/ukutaht/sinatra_json_skeleton
-* 383_skills_and_proficiencies_redux https://github.com/dandydanny/383_skills_and_proficiencies_redux
-* The Twelve-Factor App https://github.com/heroku/12factor
-* Heroku OAuth Example: Ruby https://github.com/heroku/heroku-oauth-example-ruby
-* sinatra-omniauth-example https://github.com/LaunchAcademy/sinatra-omniauth-example
-* heroku-sinatra-pony-gmail-template https://github.com/RobertLowe/heroku-sinatra-pony-gmail-template
-* vitrine-imobiliaria-sinatra https://github.com/jnettome/vitrine-imobiliaria-sinatra
+* https://github.com/jnettome/vitrine-imobiliaria-sinatra vitrine-imobiliaria
 
 * blog https://github.com/tessafallon/blog
 * DVDWorm https://github.com/shiopon01/DVDWorm

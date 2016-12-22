@@ -1,4 +1,2 @@
-Sinatra projects
-========================
-
-my experiments and on-line classes with the Sinatra gem.
+This application is deployed at 
+[*Heroku*](http://equationoftime.herokuapp.com/)

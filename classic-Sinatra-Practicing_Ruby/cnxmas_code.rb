@@ -1,6 +1,6 @@
 s="IyBUaGFua3MgZm9yIGxvb2tpbmcgYXQgbXkgY29kZ
 S4KIwojIENvcHlyaWdodCAoQykgMjAwMiAgQ2hyaXN0a
-WFuI      E       5       l       d     Wtpc                                
+WFuI      E       5       l       d     Wtpc
 mNoZ  W       4      gP       G       N obmV
 1a2l      y       Y 2hlb  k       B     nbWF
 pbC5  j       b    20+CiM     K       I yBUa
