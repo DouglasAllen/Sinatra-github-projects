@@ -6,26 +6,36 @@ https://github.com/jasontorres/sinatra-activerecord-tasks
 
 ## Clssic style
 
-* https://github.com/0xack13/sinatra-activerecord-shortendUrls
-* https://github.com/2learn/sinatra-activerecord
-* https://github.com/247webdev/Week05-Lecture5_Sinatra_pg_My-Work Week05-Lecture5
+### with Haml
 
+* https://github.com/0xack13/sinatra-activerecord-shortendUrls
+* https://github.com/Ajeo/sinatra-boilerplate
+* https://github.com/Arkham/sinatra-activerecord-url-shortener
+* https://github.com/andrewmcc/sinatra-boilerplate
+
+
+
+### with Erb
+
+* https://github.com/2learn/sinatra-activerecord
+* https://github.com/247webdev/Week05-Lab1_Sinatra-quotes-from-server_My-Work
+* https://github.com/247webdev/Week05-Lab4b_Squad_lab_My-Work
+* https://github.com/247webdev/Week05-Lecture5_Sinatra_pg_My-Work
+* https://github.com/247webdev/Week06-Lecture2_Snack_app_active_record_My-Work
 * https://github.com/adammcarth/sinatra-starter-app
-* https://github.com/Ajeo/sinatra-boilerplate boilerplate
 * https://github.com/AlexMorgan/sinatra_meetup
 * https://github.com/aliceFung/numerology-app
 * https://github.com/andisugandi/poting
-* https://github.com/andrewmcc/sinatra-boilerplate boilerplate
-* https://github.com/antirez/lamernews lamernews
-* https://github.com/aparra/my.self.travelling omniauth and twitter
-* https://github.com/apruve/apruve-ruby-demo Apruve Ruby Demo
-* https://github.com/Arkham/sinatra-activerecord-url-shortener
+* https://github.com/aparra/my.self.travelling
+* https://github.com/apruve/apruve-ruby-demo
 * https://github.com/ascendbruce/sinatra-template
 * https://github.com/Aschnied/PassionProjectWeek1
-* https://github.com/ashbb/cold-sky-27 First Step in Ruby DSL
-* https://github.com/ashwinbalaguru/sinatra-activerecord activerecord
-* https://github.com/athega/bootstrap-backbone-and-sinatra Bootstrap for Backbone.js, Jasmine, Guard, Minitest
-* https://github.com/austinsprawls/ye_list activerecord
+* https://github.com/ashbb/cold-sky-27
+* https://github.com/ashwinbalaguru/sinatra-activerecord
+* https://github.com/athega/bootstrap-backbone-and-sinatra
+* https://github.com/austinsprawls/ye_list
+
+### pending below
 
 * https://github.com/banym/sinatra-activerecord-template
 * https://github.com/basvid/sinatra-blog-with-activerecord-tux blog-with-activerecord-tux
@@ -42,16 +52,20 @@ https://github.com/jasontorres/sinatra-activerecord-tasks
 
 * https://github.com/c13iscuit/meetups_in_space ActiveRecord
 * https://github.com/charliepark/sinatra_boilerplate Boilerplate
+* https://github.com/cheshire-howe/sinatra-activerecord-haml-sass-heroku
 * https://github.com/cmkoller/lunar_kitchen
 * https://github.com/code-for-coffee/SinatraBoilerplate Backbone Boilerplate
 * https://github.com/codelittle/sinatra-h5bp HTML5 Boilerplate
 * https://github.com/colbyshores/IPtoDHCP IPtoDHCP
+* https://github.com/colincraft/Music_App_Lab
 * https://github.com/courtneyphillips/band-tracker Keeping Tabs
+* https://github.com/cpkenn09y/Sinatra-Singing-with-ActiveRecord
 * https://github.com/cpkenn09y/Using-Sinatra-with-ActiveRecord ActiveRecord
 * https://github.com/craigulliott/boilerplate_sinatra boilerplate
 * https://github.com/cyr3ne/Legal-Dictionary Legal Term Dictionary
 * https://github.com/cyr3ne/movie_database
 * https://github.com/cyr3ne/shoe_store
+* https://github.com/cyr3ne/sports_league
 
 * https://github.com/dahal/GemList
 * https://github.com/dandydanny/383_skills_and_proficiencies_redux
@@ -61,6 +75,7 @@ https://github.com/jasontorres/sinatra-activerecord-tasks
 * https://github.com/DGaffney/sinatra_boilerplate boilerplate
 * https://github.com/dgreenbe77/cards4cards-sinatra-with-activerecord
 * https://github.com/djpowers/contact_manager Contact Manager
+* https://github.com/dotthespeck/meetups_in_space
 * https://github.com/driftingwave/Sinatra_and_ActiveRecord-Users_Skills_and_Proficiencies
 
 * https://github.com/emaiax/sofss sofss
@@ -97,6 +112,7 @@ https://github.com/jasontorres/sinatra-activerecord-tasks
 * https://github.com/ion-channel/agmockapp agmockapp
 
 * https://github.com/jamaga/IronhackMBD Iron hack MBD
+* https://github.com/jasonrobertfox/tictactoe
 * https://github.com/jbolanos707/Band_Tracker Band_Tracker
 * https://github.com/jcsjcs/dbstruct dbstruct and tablemigrations
 * https://github.com/jdno/sinatra-api-template API template
@@ -141,6 +157,7 @@ https://github.com/jasontorres/sinatra-activerecord-tasks
 * https://github.com/miminashi/sprite-orbits-mock-sinatra sprite-orbits-mock
 * https://github.com/mislav/sinatra-boilerplate boilerplate
 * https://github.com/mightyGaby/sinatra-mailing-list-boilerplate mailing-list-boilerplate
+* https://github.com/mjhea0/sinatra-blog
 * https://github.com/mjhea0/sinatra-lands ActiveRecord + Tux + Bootstrap
 * https://github.com/mkwiatkowski/jruby-sinatra-starter-kit JRuby starter kit for Shelly Cloud
 * https://github.com/mmwtsn/sinatra-boilerplate boilerplate
@@ -171,6 +188,7 @@ https://github.com/jasontorres/sinatra-activerecord-tasks
 * https://github.com/roberttaraya/sinatra-blog simple blog
 * https://github.com/robinsingh1/Sinatra-Boilerplate Boilerplate
 * https://github.com/ronnqvist/simple-sinatra-html5boilerplate simple-html5boilerplate
+* https://github.com/rserur/LA-meetups-in-space
 * https://github.com/runemadsen/Sinatra-Activerecord-Bundler-Example Activerecord-Bundler-Example
 * https://github.com/rziehl/sinatra-boilerplate boilerplate
 
@@ -183,6 +201,8 @@ https://github.com/jasontorres/sinatra-activerecord-tasks
 * https://github.com/supercerealgore/pg-ar-sinatra pg-ar
 * https://github.com/sapotero/sinatra-boilerplate boilerplate
 * https://github.com/sethhochberg/sinatra-base-skeleton Rails-like file structure
+* https://github.com/shannonjen/first_db
+* https://github.com/shannonjen/user_post_app
 * https://github.com/sinatra/sinatra-template template
 * https://github.com/solyaris/sinatra-api-server-toolbox API Server Toolbox
 * https://github.com/spannerj/ActiverecordSinatra-master Activerecord
@@ -195,6 +215,7 @@ https://github.com/jasontorres/sinatra-activerecord-tasks
 * https://github.com/tessafallon/blog blog
 * https://github.com/thedanpan/sinatra-mvc-skeleton mvc-skeleton
 * https://github.com/thejessleigh/sinatra-practice-m practice with activerecord
+* https://github.com/tiger-swallowtails-2013/kiera_sunny_todo
 * https://github.com/timwaters/whooms WhooMS
 * https://github.com/tomgalpin/potluck_manager potluck_manager
 * https://github.com/tomgalpin/wdi_brokerage
@@ -212,6 +233,7 @@ https://github.com/jasontorres/sinatra-activerecord-tasks
 
 * https://github.com/wapptastic/Sinatra_Todo_ActiveRecord
 * https://github.com/wapptastic/Sinatra-Todo-app-with-Datamapper-using-Postgres-and-JSON Todo Postgres Datamapper JSON
+* https://github.com/wdi-sf-jan/faux-db
 * https://github.com/wdi-sf-jan/snack_exercise Snack App
 * https://github.com/wstrinz/oauth-get oauth-get
 * https://github.com/wuleicanada/myapp myapp
@@ -221,3 +243,4 @@ https://github.com/jasontorres/sinatra-activerecord-tasks
 * https://github.com/zenbaku/basic-service-sinatra-activerecord
 
 
+* https://github.com/antirez/lamernews lamernews
